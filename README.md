@@ -21,8 +21,7 @@ AI-Based_Synchronised-Video_Dubbing/
 
 ## ⚙️ How It Works
 
-```mermaid
-graph TD
+```
 A[🎥 Input Video] --> B[🧠 ASR (Speech-to-Text)]
 B --> C[🌐 Translation (MarianMT)]
 C --> D[🗣️ Emotional TTS (FastSpeech 2)]
@@ -44,9 +43,6 @@ E --> F[📼 Render Dubbing Output]
 | AI Models  | Whisper, GTTS, FastSpeech2, Wav2Lip |
 
 ---
-## 🧪 Output Video
-
-
 ## 📚 References
 
 - [Wav2Lip (CVPR 2020)](https://github.com/Rudrabha/Wav2Lip)  
