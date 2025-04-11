@@ -24,7 +24,7 @@ AI-Based_Synchronised-Video_Dubbing/
 ```
 A[🎥 Input Video] --> B[🧠 ASR (Speech-to-Text)]
 B --> C[🌐 Translation (MarianMT)]
-C --> D[🗣️ Emotional TTS (FastSpeech 2)]
+C --> D[🗣️ TTS (FastSpeech 2)]
 D --> E[👄 Lip Sync with Wav2Lip]
 E --> F[📼 Render Dubbing Output]
 ```
